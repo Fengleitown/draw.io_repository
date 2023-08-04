@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-04T07:10:02.154Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="NMh3CT3KNsGrjlIk1cAS" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-04T11:11:19.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="s4EU-ieif1oNJvVXgEi8" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1841" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1691" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -116,29 +116,52 @@
         <mxCell id="ALgLnihAd1x21a2WmlSg-50" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;是&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10" y="1010" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ALgLnihAd1x21a2WmlSg-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ALgLnihAd1x21a2WmlSg-51" target="ALgLnihAd1x21a2WmlSg-53">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ALgLnihAd1x21a2WmlSg-51" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;认证车主鉴权，不满足的话设置为其他车辆&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-25" y="1160" width="210" height="80" as="geometry" />
+          <mxGeometry x="-25" y="1150" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ALgLnihAd1x21a2WmlSg-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ALgLnihAd1x21a2WmlSg-53" target="ALgLnihAd1x21a2WmlSg-55">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ALgLnihAd1x21a2WmlSg-53" value="&lt;font size=&quot;3&quot;&gt;添加授权各种参数校验和限制&lt;br&gt;如：、、传的、、不允许授权自己、校验被授权手机号/用户，新用户的话直接注册&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="395" y="1870" width="315" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="ALgLnihAd1x21a2WmlSg-53" value="&lt;font size=&quot;3&quot;&gt;添加授权各种参数校验和限制&lt;br&gt;如：过期时间、nfc蓝牙开关开启、传的100和104是否在授权范围、授权数量、不允许授权自己、校验被授权手机号/用户，新用户的话直接注册&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-77.5" y="1310" width="315" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="ALgLnihAd1x21a2WmlSg-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ALgLnihAd1x21a2WmlSg-55" target="ALgLnihAd1x21a2WmlSg-57">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ALgLnihAd1x21a2WmlSg-55" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;被授权用户已存在一条有效记录？&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-25" y="1490" width="210" height="140" as="geometry" />
+        <mxCell id="ALgLnihAd1x21a2WmlSg-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="ALgLnihAd1x21a2WmlSg-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="1630" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ALgLnihAd1x21a2WmlSg-57" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;授权成功&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="1680" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ALgLnihAd1x21a2WmlSg-59" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;否&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=12;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="50" y="1620" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ALgLnihAd1x21a2WmlSg-60" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;是否超过过期时间&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-820" y="1310" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ALgLnihAd1x21a2WmlSg-61" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;nfc蓝牙开关是否开启&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-500" y="1310" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ALgLnihAd1x21a2WmlSg-62" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;功能码100和104是否在授权范围&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-193.75" y="1310" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ALgLnihAd1x21a2WmlSg-63" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;授权数量不超过4个，超过4个不可以新增授权，5个不允许修改&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="1310" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ALgLnihAd1x21a2WmlSg-64" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;是否在授权给自己&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="1310" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ALgLnihAd1x21a2WmlSg-65" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;校验被授权的手机号自动默认开通云服务，并且如果是新用户的话自动注册&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="1310" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ALgLnihAd1x21a2WmlSg-66" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="55" y="490" width="50" height="1569" as="geometry" />
+        </mxCell>
+        <mxCell id="ALgLnihAd1x21a2WmlSg-67" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="57.5" y="727.5" width="50" height="1565" as="geometry" />
+        </mxCell>
+        <mxCell id="ALgLnihAd1x21a2WmlSg-68" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="1230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ALgLnihAd1x21a2WmlSg-69" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rounded=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="72.5" y="1530" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
