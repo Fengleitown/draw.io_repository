@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T08:14:51.692Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="ekJMYtBVptu6PaAdiAtC" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T08:15:05.473Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="XWpNQzcO5MxpLKCjPKEk" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="5149" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -377,14 +377,23 @@
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-82" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;修改授权条件校验&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-50" y="968" width="310" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-86" target="WH5aaKSB1Kbkcacmu5iD-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-86" value="更新数据库授权记录" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="1220" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-87" target="WH5aaKSB1Kbkcacmu5iD-88">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-87" value="判断是否有新增/删除的授权功能" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="205" y="1310" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-88" value="将授权记录范围关系表按新增/删除来对应更新" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="205" y="1440" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-91" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="1398" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
