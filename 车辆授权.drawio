@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T08:00:08.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="5bI7L18YbXclM2bsuin5" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T08:02:22.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="r7JiuAHHqGpvJAQKypQ4" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="7050" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5107" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-80" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-70" y="934" width="1850" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.535;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-46" target="WH5aaKSB1Kbkcacmu5iD-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-46" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="300" y="175" width="1240" height="625" as="geometry" />
         </mxCell>
@@ -367,6 +373,9 @@
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-77" value="判断是否是过期重启授权" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1520" y="960" width="145" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-82" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;修改授权条件校验&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-80" y="950" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
