@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T03:20:13.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="jeI9zIMLuM35Tkqdzi5G" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T03:40:44.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="gEqULPBMOF-IML42MvdR" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2770" dy="1305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,8 +196,28 @@
         <mxCell id="sFdcfGXnFSqKME9rikbx-8" value="看到新增授权记录信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-371.25" y="2313" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sFdcfGXnFSqKME9rikbx-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;判断授权有无云服务，有云服务需要初始化auto_lock表&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="sFdcfGXnFSqKME9rikbx-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sFdcfGXnFSqKME9rikbx-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="1979" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sFdcfGXnFSqKME9rikbx-14" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;判断授权是否有云服务，有云服务需要初始化auto_lock表&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="45" y="1760" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sFdcfGXnFSqKME9rikbx-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;是&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1920" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sFdcfGXnFSqKME9rikbx-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sFdcfGXnFSqKME9rikbx-18" target="sFdcfGXnFSqKME9rikbx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sFdcfGXnFSqKME9rikbx-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;被授权人在auto_lock&lt;br&gt;表中是否有记录&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="45" y="1979" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sFdcfGXnFSqKME9rikbx-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="190" y="2130" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sFdcfGXnFSqKME9rikbx-20" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;插入auto-lock表记录&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="2180" width="170" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
