@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T08:43:01.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="aoBQq-HsnHj0hsQy9RKG" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T09:32:49.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="4EAOIvNiXbH7ykCwuoWW" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="7466" dy="2171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5362" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -398,7 +398,7 @@
             <mxPoint x="635" y="1447" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WH5aaKSB1Kbkcacmu5iD-87" value="判断是否有新增/删除的授权功能" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-87" value="判断传参&lt;br&gt;是否有新增/删除的授权功能" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="585" y="1317" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-91" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -419,7 +419,7 @@
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-98" target="WH5aaKSB1Kbkcacmu5iD-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WH5aaKSB1Kbkcacmu5iD-98" value="是否包含云钥匙" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-98" value="传参是否包含云钥匙" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="760" y="1317" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-100" value="删除云钥匙，同时清除auto_lock表的对应数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -437,7 +437,7 @@
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-106" target="WH5aaKSB1Kbkcacmu5iD-107">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WH5aaKSB1Kbkcacmu5iD-106" value="是否包含蓝牙钥匙" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-106" value="传参是否包含&lt;br&gt;蓝牙钥匙" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="925" y="1317" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-107" value="删除蓝牙钥匙，同时清除empower_bluetooth_t表的对应数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -455,7 +455,7 @@
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-112" target="WH5aaKSB1Kbkcacmu5iD-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WH5aaKSB1Kbkcacmu5iD-112" value="是否包含NFC钥匙" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-112" value="传参是否包含&lt;br&gt;NFC钥匙" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1085" y="1317" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-113" value="删除NFC钥匙，需要调用远程NFC接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
