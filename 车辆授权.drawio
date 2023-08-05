@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T11:14:28.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="zEFDQEnmzvQayuFosj7I" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T11:14:33.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="ZqsgExFtNL_YAEp3EQYO" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="5628" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -636,6 +636,9 @@
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-185" value="删除授权记录表&lt;br&gt;empower_record_t，同时在empower_record_log_t记录表中存储这条记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1060" y="3184" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-189" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-187" target="WH5aaKSB1Kbkcacmu5iD-188">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-187" value="判断是否授权了智能钥匙" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1260" y="3150" width="180" height="148" as="geometry" />
