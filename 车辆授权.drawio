@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T08:23:48.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="3SURpKgkzxgEIRvdjwP-" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T08:26:43.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="bp29nThm1_DJ8jfbjRSK" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="5107" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -405,8 +405,14 @@
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-96" value="判断云服务的&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;增删改情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="370" y="1220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WH5aaKSB1Kbkcacmu5iD-98" value="是否包含云钥匙&lt;br&gt;不包含云钥匙就删除" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-98" target="WH5aaKSB1Kbkcacmu5iD-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-98" value="是否包含云钥匙" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="1310" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-100" value="删除云钥匙，同时清除auto_lock表的对应数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="365" y="1440" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
