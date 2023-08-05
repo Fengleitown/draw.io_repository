@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T11:19:01.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="Ao-zhSzSZLicdAz7gsRU" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T11:20:00.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="4gAm4vTqGxU5hXvFkNhs" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5628" dy="931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5852" dy="1071" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-197" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-195" target="WH5aaKSB1Kbkcacmu5iD-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-195" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="340" y="3140" width="1220" height="480" as="geometry" />
         </mxCell>
@@ -659,7 +662,10 @@
           <mxGeometry x="1380" y="3360" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-196" value="发送短信消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="840" y="3670" width="120" height="60" as="geometry" />
+          <mxGeometry x="890" y="3670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-198" value="&lt;b&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;删&lt;br&gt;除&lt;br&gt;授&lt;br&gt;权&lt;br&gt;处&lt;br&gt;理&lt;br&gt;流&lt;br&gt;程&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="3200" width="60" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
