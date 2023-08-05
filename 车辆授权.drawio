@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T08:26:43.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="bp29nThm1_DJ8jfbjRSK" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T08:28:59.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="wnyVfRCh6Q-IONv7B3MX" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="5107" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -413,6 +413,45 @@
         </mxCell>
         <mxCell id="WH5aaKSB1Kbkcacmu5iD-100" value="删除云钥匙，同时清除auto_lock表的对应数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="365" y="1440" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-102" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="426" y="1398" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-104" target="WH5aaKSB1Kbkcacmu5iD-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-104" value="判断蓝牙钥匙的&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;增删改情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="535" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-106" target="WH5aaKSB1Kbkcacmu5iD-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-106" value="是否包含蓝牙钥匙" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="545" y="1310" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-107" value="删除蓝牙钥匙，同时清除auto_lock表的对应数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="1440" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-108" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="591" y="1398" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-110" target="WH5aaKSB1Kbkcacmu5iD-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-110" value="判断NFC钥匙的&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;增删改情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="695" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WH5aaKSB1Kbkcacmu5iD-112" target="WH5aaKSB1Kbkcacmu5iD-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-112" value="是否包含NFC钥匙" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="705" y="1310" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-113" value="删除NFC钥匙，同时清除auto_lock表的对应数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="1440" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WH5aaKSB1Kbkcacmu5iD-114" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="751" y="1398" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
