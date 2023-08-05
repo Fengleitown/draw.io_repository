@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-05T04:08:46.385Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="SxnN55F1dtAMCPMNpzHd" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-05T04:11:50.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="2YoA_VT25D94uwngOU4u" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="5541" dy="2610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2196" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="-1080" y="1320" width="2197.5" height="210" as="geometry" />
         </mxCell>
         <mxCell id="sFdcfGXnFSqKME9rikbx-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-680" y="1730" width="1550" height="710" as="geometry" />
+          <mxGeometry x="-715" y="1750" width="1550" height="710" as="geometry" />
         </mxCell>
         <mxCell id="ALgLnihAd1x21a2WmlSg-32" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-290" y="570" width="120" height="80" as="geometry" />
@@ -149,11 +149,14 @@
         <mxCell id="ALgLnihAd1x21a2WmlSg-65" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;校验被授权的手机号自动默认开通云服务，并且如果是新用户的话自动注册&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="787.5" y="1345" width="260" height="160" as="geometry" />
         </mxCell>
+        <mxCell id="sFdcfGXnFSqKME9rikbx-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.514;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ALgLnihAd1x21a2WmlSg-72" target="sFdcfGXnFSqKME9rikbx-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ALgLnihAd1x21a2WmlSg-72" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;拿到车主和被授权人信息&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-37.5" y="1610" width="237.5" height="96" as="geometry" />
         </mxCell>
         <mxCell id="ALgLnihAd1x21a2WmlSg-74" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;否&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=default;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="20" y="1560" width="50" height="40" as="geometry" />
+          <mxGeometry x="35" y="1560" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sFdcfGXnFSqKME9rikbx-0" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;计算有效期&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-550" y="1786" width="150" height="80" as="geometry" />
@@ -236,6 +239,9 @@
         </mxCell>
         <mxCell id="sFdcfGXnFSqKME9rikbx-35" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;b&gt;授权条件校验&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1080" y="1320" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sFdcfGXnFSqKME9rikbx-43" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;b&gt;授&lt;br&gt;权&lt;br&gt;流&lt;br&gt;程&lt;br&gt;处&lt;br&gt;理&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-670" y="1810" width="70" height="360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
